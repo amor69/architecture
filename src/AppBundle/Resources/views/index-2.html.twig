@@ -2,53 +2,6 @@
 {% block body %}
 <body class="" id="top">
   <div class="main">
-<!--==============================
-              header
-=================================-->
-<header>
-<!--==============================
-            Stuck menu
-=================================-->
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <div class="socials">
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-google-plus"></a>
-          <a href="#" class="fa fa-pinterest"></a>
-        </div>
-        <div class="clear"></div>
-        <h1>
-          <a href="{{ path('homepage') }}">
-            <img src="{{ asset('images/logo.png') }}" alt="Logo alt">
-          </a>
-        </h1>      
-      <div class="clear"></div>  
-    </div>
-   </div> 
-  </div>
-  <div id="stuck_container">
-    <div class="container">
-      <div class="row">
-        <div class="grid_12">
-        <div class="navigation ">
-          <nav>
-            <ul class="sf-menu">
-             <li><a href="{{ path('homepage') }}">Home</a></li>
-             <li><a href="{{ path('home1') }}">Projects</a></li>
-             <li class="current"><a href="{{ path('home2') }}">Services</a></li>
-             <li><a href="{{ path('home3') }}">Blog</a></li>
-             <li><a href="{{ path('home4') }}">Contacts</a></li>
-           </ul>
-          </nav>
-      
-          <div class="clear"></div>
-      </div> </div>
-      </div>
-    </div>
-  </div> 
-</header>
 <!--=====================
           Content
 ======================-->
@@ -165,25 +118,5 @@
   </div>
   </div>
 </section>
-<!--==============================
-              footer
-=================================-->
 </div>
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">  
-         <div class="socials">
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-google-plus"></a>
-          <a href="#" class="fa fa-pinterest"></a>
-          </div>
-         <div class="copyright"><div class="color2"><strong>Arch</strong> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a></div>
-          Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
-          </div>
-      </div>
-    </div>
-  </div>  
-</footer>
 {% endblock %}
